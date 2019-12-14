@@ -1,0 +1,182 @@
+body header .header-wrap .landing-logo p span, body .footer .footer-wrap .footer_logo p span {
+  display: block;
+  font-size: 8px; }
+
+body {
+  margin: 0px;
+  background-color: #1c1e29; }
+  body header {
+    background: no-repeat url(../img/m-h-night.jpg);
+    padding-bottom: 100px;
+    background-size: 1500px;
+    margin-top: -200px;
+    border-bottom-right-radius: 700px 280px; }
+    body header .header-wrap {
+      padding-top: 230px;
+      padding-left: 150px;
+      padding-right: 850px; }
+      body header .header-wrap .landing-logo {
+        display: flex;
+        color: white;
+        height: 45px; }
+        body header .header-wrap .landing-logo p {
+          margin-top: -5px;
+          margin-left: 10px;
+          text-align: center;
+          font-size: 20px;
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: bold; }
+      body header .header-wrap .header_heading {
+        font-size: 50px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        z-index: 1; }
+        body header .header-wrap .header_heading:after {
+          position: absolute;
+          background-color: #ee5a3f;
+          content: "";
+          z-index: -1;
+          left: 0px;
+          bottom: 5px;
+          width: 210px;
+          height: 38px; }
+      body header .header-wrap .header_text {
+        font-size: 13px;
+        color: white;
+        font-family: "Hind", sans-serif;
+        opacity: 0.7;
+        display: block; }
+      body header .header-wrap .header_button {
+        border-radius: 2px;
+        background-color: #ddaf38;
+        border-color: transparent;
+        color: #fbf8ea;
+        font-weight: bold;
+        padding: 15px 40px 15px 40px;
+        font-size: 13px;
+        margin-top: 25px; }
+      body header .header-wrap .login {
+        font-family: "Source Sans Pro", sans-serif;
+        padding-left: 130px;
+        color: #fbf8ea; }
+  body .section .section_text {
+    text-align: center;
+    font-size: 31px;
+    color: white;
+    font-family: "Hind", sans-serif;
+    position: relative;
+    z-index: 1; }
+    body .section .section_text:after {
+      position: absolute;
+      background-color: #ee5a3f;
+      content: "";
+      z-index: -1;
+      right: 571px;
+      top: 1px;
+      width: 137px;
+      height: 35px; }
+  body .section .section_card_wrap {
+    padding: 0 300px 70px 300px; }
+    body .section .section_card_wrap .section_card {
+      display: flex;
+      background-color: #383d4e;
+      margin-bottom: 25px;
+      border-radius: 5px; }
+      body .section .section_card_wrap .section_card .section_card_img {
+        width: 100%;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #383d4e;
+        border-width: 15px; }
+      body .section .section_card_wrap .section_card .section_card_right_container {
+        padding: 35px 70px 20px 70px; }
+        body .section .section_card_wrap .section_card .section_card_right_container .section_card_heading {
+          font-size: 18px;
+          font-family: "Source Sans Pro", sans-serif;
+          text-align: center;
+          color: white; }
+        body .section .section_card_wrap .section_card .section_card_right_container .section_card_text {
+          font-size: 13px;
+          line-height: 16px;
+          width: 100%;
+          padding-top: 20px;
+          color: #c1c5c5;
+          font-family: "Hind", sans-serif; }
+        body .section .section_card_wrap .section_card .section_card_right_container .section_link {
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 13px;
+          padding-left: 40%;
+          color: #c1c5c5; }
+  body .section .section_banner .section_banner_text_wrap {
+    background-image: linear-gradient(to right, #ddaf38, #883251);
+    margin: 20px 270px -70px 270px;
+    padding: 50px 15px 30px 110px;
+    border-radius: 5px;
+    line-height: 15px;
+    position: relative; }
+    body .section .section_banner .section_banner_text_wrap .section_banner_heading {
+      font-size: 22px;
+      transform: translate(0px, -40px);
+      font-weight: bold;
+      color: white;
+      font-family: "Hind", sans-serif;
+      position: absolute;
+      z-index: 1; }
+      body .section .section_banner .section_banner_text_wrap .section_banner_heading:after {
+        position: absolute;
+        background-color: #ee5a3f;
+        content: "";
+        z-index: -1;
+        left: 90px;
+        bottom: -4px;
+        width: 50px;
+        height: 37px; }
+    body .section .section_banner .section_banner_text_wrap .section_banner_text {
+      font-size: 12px;
+      color: #c1c5c5; }
+  body .section .section_banner .section_banner_button {
+    border-radius: 2px;
+    background-color: #ddaf38;
+    border-color: transparent;
+    color: #fbf8ea;
+    font-weight: bold;
+    padding: 15px 40px 15px 40px;
+    font-size: 13px;
+    margin-left: 970px;
+    position: relative;
+    margin-top: -10px;
+    transform: translate(-50%, -50%); }
+  body .footer {
+    background-color: #383d4e;
+    height: 200px;
+    margin-top: -40px; }
+    body .footer .footer-wrap {
+      font-family: "Hind", sans-serif;
+      display: flex;
+      padding-left: 130px;
+      padding-right: 130px;
+      padding-top: 120px;
+      color: #c1c5c5; }
+      body .footer .footer-wrap .footer_logo {
+        transform: translate(-10%, -50%);
+        display: flex;
+        color: #c1c5c5;
+        height: 45px; }
+        body .footer .footer-wrap .footer_logo p {
+          margin-top: -2px;
+          margin-left: 10px;
+          text-align: center;
+          font-size: 16px;
+          font-weight: bold; }
+      body .footer .footer-wrap .footer_text {
+        margin-left: 350px;
+        margin-right: 360px;
+        text-align: left;
+        font-size: 10px;
+        margin-top: -15px;
+        font-family: "Hind", sans-serif; }
+      body .footer .footer-wrap .footer-cr {
+        font-size: 12px;
+        white-space: nowrap; }
