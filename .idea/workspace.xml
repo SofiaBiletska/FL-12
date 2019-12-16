@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1621c5d-dae1-4b39-aa55-1a7897c088f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/.idea/FL12_HW3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/.idea/homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/css/style1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/css/style2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/img/m-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/img/m-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/img/m-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/img/m-h-day.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/img/m-h-night.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/img/m-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/koala-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/scss/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/scss/_variables1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/scss/_variables2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/scss/style1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FL12_HW3/homework/scss/style2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FL12_HW2/homework/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/FL12_HW2/homework/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FL12_HW3/homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FL12_HW3/homework/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +32,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FL-12/FL12_HW4/homework/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FL-12/FL12_HW1 /homework/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -92,7 +72,8 @@
       <workItem from="1575910564310" duration="577000" />
       <workItem from="1576271699276" duration="181000" />
       <workItem from="1576271942854" duration="161000" />
-      <workItem from="1576343835548" duration="613000" />
+      <workItem from="1576343835548" duration="1062000" />
+      <workItem from="1576512808313" duration="2477000" />
     </task>
     <servers />
   </component>
