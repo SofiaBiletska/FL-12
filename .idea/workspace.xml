@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1621c5d-dae1-4b39-aa55-1a7897c088f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FL12_HW4/homework/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FL12_HW3/homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FL12_HW3/homework/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1576271699276" duration="181000" />
       <workItem from="1576271942854" duration="161000" />
       <workItem from="1576343835548" duration="1062000" />
-      <workItem from="1576512808313" duration="2477000" />
+      <workItem from="1576512808313" duration="2726000" />
     </task>
     <servers />
   </component>
