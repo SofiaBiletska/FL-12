@@ -1,0 +1,466 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+ */
+
+body {
+  font-family: roboto;
+}
+.post-1 {
+	background: #9d27b0;
+}
+.post-2 {
+	background: #9bb800;
+}
+.post-3 {
+	background: #ed5120;
+}
+.post-4 {
+	background: #9d27b0;
+}
+.post-5 {
+	background: #2d95bb;
+}
+
+/* Your styles go here */
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: #0b192f;
+    }
+
+    @media screen and (max-width: 1400px) {
+
+    a {
+        cursor: pointer;
+    }
+
+    #menuhamb {
+        visibility: hidden;
+    }
+
+    nav .menu-item:hover {
+        background: #1f52a4;
+        padding: 30px 15px 30px 15px;
+    }
+
+    .pimg:hover {
+        opacity: 0.7;
+    }
+
+    .pinfo:hover {
+        opacity: 0.7;
+    }
+
+    .pinf:hover {
+        opacity: 0.7;
+    }
+
+    .post {
+        padding-right: 20px;
+    }
+
+    .wrapper {
+        margin: auto;
+        width: 90%;
+        background-color: #0b192f;
+    }
+
+    header {
+        background-color: #024161;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        padding-right: 50%;
+        font-size: 40px;
+        font-weight: lighter;
+        color: #FFFFFF;
+        margin-left: 20px;
+    }
+
+    .blog {
+        color: deeppink;
+    }
+
+    nav {
+        word-spacing: 40px;
+        padding-right: 50px;
+    }
+
+    .menu-item {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .introduction {
+        margin-bottom: 20px;
+    }
+
+    .introimg img {
+        width: 100%;
+        position: relative;
+    }
+
+    .intr {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        margin-top: -12%;
+        padding-left: 3%;
+    }
+
+    .intr h1 {
+        font-size: 40px;
+        font-weight: lighter;
+    }
+
+    .intr p {
+        padding-top: 20px;
+        width: 65%;
+        line-height: 25px;
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 78%;
+    }
+
+    .news {
+        flex-grow: 1;
+        width: 400px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nimg img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .post {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        min-height: 280px;
+    }
+
+    .post:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .post-2, .post-4 {
+        text-align: right;
+    }
+
+    .pinfo {
+        flex: 0 50%;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .post-1, .post-3{
+        padding: 35px 65px 30px 40px;
+    }
+
+    .post-2, .post-4{
+        padding: 30px 40px 30px 65px;
+    }
+
+    .pdescription {
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 30px;
+    }
+
+    .ptitle {
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: lighter;
+    }
+
+    .pimg {
+        flex: 0 50%;
+        display: flex;
+    }
+
+    .pimg img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .date {
+        position: absolute;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 300;
+        color: white;
+        opacity: 0.2;
+    }
+
+    .dateodd {
+        right: 30px;
+    }
+
+    .dateeven {
+        left: 20px;
+
+    }
+    .number {
+        font-size: 50px;
+    }
+
+    .date {
+        font-size: 25px
+    }
+
+    .nitem {
+        margin-bottom: 20px;
+    }
+
+    .ncont{
+        background-color: #FFFFFF;
+        padding: 35px 40px 30px 34px;
+    }
+
+    .ntitle {
+        font-size: 25px;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+
+    .ndescription {
+        line-height: 25px;
+    }
+
+    .post4 {
+        height: 320px;
+    }
+    .post-5 {
+        padding: 50px 100px 0 50px;
+        color: white;
+        height: 180px;
+    }
+
+    footer {
+        background-color: #024161;
+        height: 120px;
+        margin-top: -25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #ffffff;
+        opacity: 0.6;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        margin: auto;
+        width: 97%;
+        background-color: #0b192f;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    .header h1 {
+        padding: 0;
+    }
+
+    #menuhamb span {
+        visibility: visible;
+        display: block;
+        width: 25px;
+        height: 2px;
+        margin-bottom: 5px;
+        position: relative;
+        background-color: white;
+        opacity: 0.3;
+        border-radius: 2px;
+        z-index: 1;
+    }
+    #menuhamb span:first-child {
+        background-color: #FFFFFF;
+        opacity: 0.7;
+    }
+    .blog {
+        color: darkviolet;
+    }
+
+    .introimg img {
+        height: 350px;
+    }
+
+    .intr {
+        margin-top: -20%;
+        padding-left: 5%;
+    }
+
+    .intr h1 {
+        font-size: 40px;
+        font-weight: lighter;
+    }
+
+    .intr p {
+        padding-top: 15px;
+        width: 95%;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    .post {
+        display: block;
+    }
+
+    .posts {
+        width: 68%;
+    }
+
+    .post-2, .post-4 {
+        text-align: left;
+    }
+
+    .date{
+        top: 85%;
+        right: 5%;
+    }
+
+    .dateodd {
+        right: 45%;
+    }
+    .dateeven {
+        top: 310px;
+    }
+
+    .date1, .date3  {
+        top: 52%;
+        right: 5%;
+    }
+
+
+    .date4 {
+       top: 360px;
+    }
+
+    .dateeven {
+        margin-left: 80%;
+
+    }
+    .news {
+        width: 32%;
+    }
+
+    footer {
+        background-color: #024161;
+        height: 150px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .post-5 {
+        margin-top: 70%;
+        height: 400px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .post-2, .post-4{
+        padding: 35px 65px 30px 40px;
+    }
+
+    .img4 {
+        max-height: 340px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+   * {
+        padding:0;
+        margin:0;
+    }
+
+    #menuhamb {
+        display: initial;
+    }
+    .news {
+        margin:0;
+        padding:0;
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 98%;
+        background-color: #0b192f;
+        margin-left: 16px;
+    }
+
+    .intr {
+        margin-top: -40%;
+    }
+
+    .intr p {
+        width: 85%;
+    }
+
+
+    .ntitle {
+        font-size: 28px;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .posts {
+        min-width: 104%;
+    }
+
+    footer {
+        height: 180px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+}
+
