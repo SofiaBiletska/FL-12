@@ -7,7 +7,7 @@ if ( isNaN(a) || isNaN(b) ||  isNaN(c) ) {
 if (a === 0 || b === 0 || c === 0) {
     alert('A triangle must have 3 sides with a positive definite length');
 }
-if (a + b > c && a + c >b && b + c > a) {
+if (a + b > c && a + c > b && b + c > a) {
     if (a === b && b === c) {
         console.log('Equilateral triangle');
     }
