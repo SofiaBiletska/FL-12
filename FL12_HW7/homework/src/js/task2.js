@@ -1,4 +1,4 @@
-let uprize, maxN, maxpprize , pprize, answer, attempts, N;
+let uprize, maxN, maxpprize , pprize, Nuser, attempts, N;
 while(confirm('Do you want to play a game?')) {
     maxN = 8;
     uprize = 0;
@@ -8,10 +8,10 @@ while(confirm('Do you want to play a game?')) {
         pprize = maxpprize;
         N = Math.floor(Math.random() * maxN) + 1;
         for (; attempts > 0; attempts--) {
-            answer = +prompt('Choose a roulette pocket number from 0 to '
+            Nuser = +prompt('Choose a roulette pocket number from 0 to '
             + maxN + ' \nAttempts left: ' + attempts + '\nTotal prize: ' + uprize +
             '$ \nPossible prize on current attempt: ' + pprize + '$');
-            if (answer === N) {
+            if (Nuser === N) {
                 maxN = maxN + 4;
                 uprize += pprize;
                 maxpprize = maxpprize * 2;
