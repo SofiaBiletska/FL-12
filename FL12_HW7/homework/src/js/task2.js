@@ -1,5 +1,5 @@
 let uprize, maxN, maxpprize , pprize, Nuser, attempts, N;
-while(confirm('Do you want to play a game?')) {
+while(confirm('Do you want to play a game ?')===true) {
     maxN = 8;
     uprize = 0;
     maxpprize = 100;
@@ -24,6 +24,6 @@ while(confirm('Do you want to play a game?')) {
             break;
         }
     } while (confirm('Congratulation, you won! Your prize is: '
-        + uprize + '$. Do you want to play a game again?'));
+        + uprize + '$. Do you want to play a game again?')===true);
 }
 alert('You did not become a billionaire, but can.');
