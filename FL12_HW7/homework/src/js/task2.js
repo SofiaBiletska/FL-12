@@ -24,5 +24,5 @@ while(confirm('Do you want to play a game ?')===true) {
             break;
         }
     } while (confirm('Congratulation, you won! Your prize is: '
-        + uprize + '$. Do you want to play a game again?')===true);
+        + uprize + '$. Do you want to continue?')===true);
 } alert('You did not become a billionaire, but can.');
