@@ -10,4 +10,5 @@ function isLeapYear(args) {
         return (`${Year} is not a leap year`);
     }
 }
+
 isLeapYear('2020-03-23 23:38:22');
