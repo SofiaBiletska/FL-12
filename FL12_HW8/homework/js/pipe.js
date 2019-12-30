@@ -10,4 +10,3 @@ function pipe (N, ...funct) {
 }
 
 pipe(7, addOne);
-
