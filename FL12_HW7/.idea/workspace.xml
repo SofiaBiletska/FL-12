@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90beb12a-1260-41f7-9bd0-e260c581a965" name="Default Changelist" comment="" />
+    <list default="true" id="90beb12a-1260-41f7-9bd0-e260c581a965" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/src/js/task1.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/src/js/task1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/src/js/task2.js" beforeDir="false" afterPath="$PROJECT_DIR$/homework/src/js/task2.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1VUROk5jxK0aYUzHG88lBQgQ4Cm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,6 +56,12 @@
       <updated>1577305656591</updated>
       <workItem from="1577305659534" duration="1919000" />
       <workItem from="1577383749288" duration="11000" />
+      <workItem from="1577454953173" duration="89000" />
+      <workItem from="1577455082263" duration="24000" />
+      <workItem from="1577455416255" duration="31000" />
+      <workItem from="1577455512966" duration="111000" />
+      <workItem from="1577716264597" duration="115000" />
+      <workItem from="1577716501924" duration="98000" />
     </task>
     <servers />
   </component>
