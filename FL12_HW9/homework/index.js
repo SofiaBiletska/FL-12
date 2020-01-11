@@ -14,7 +14,6 @@ function convert() {
 }
 convert('1', 2, 3, '4');
 
-
 function executeforEach(array, callback) {
     for(let i = 0; i < array.length; i++){
         callback(array[i]);
@@ -23,7 +22,6 @@ function executeforEach(array, callback) {
 executeforEach([1,2,3],function(el){
     console.log(el * 2);
 });
-
 
 function mapArray(array, callback){
     let arr2 = [];
@@ -35,7 +33,6 @@ function mapArray(array, callback){
 mapArray([2, '5', 8], function(el){
     return el + 3;
 });
-
 
 function filterArray(array, callback){
     let result = [];
@@ -49,7 +46,6 @@ function filterArray(array, callback){
 filterArray([2, 5, 8], function(el){
     return el;
 });
-
 
 function flipOver(str) {
     let result_string = '';
@@ -70,8 +66,6 @@ function makeListFromRange([first, last]) {
 }
 makeListFromRange([2, 7]);
 
-
-
 function getArrayOfKeys(array, kEy){
 let result_arr=[];
     executeforEach(array,function (el) {
@@ -84,7 +78,6 @@ const actors = [
     { name: 'lee', age: 28 }
 ];
  getArrayOfKeys(actors,'name');
-
 
 function substitute(array){
     let arr2 = [];
