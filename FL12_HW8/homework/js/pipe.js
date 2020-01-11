@@ -9,4 +9,8 @@ function pipe (N, ...funct) {
     return N;
 }
 
+<<<<<<< HEAD
 pipe(7, addOne);
+=======
+pipe(7, addOne);
+>>>>>>> b5736841c6d0c8a3ed13a3b0d598ca2afa121ee5
