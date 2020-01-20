@@ -42,7 +42,7 @@ function battle(first, second) {
     if (!first.getHealth()) {
         console.log(`${first.getName()} is dead and can't fight.`);
     } else if (!second.getHealth()) {
-        console.log(`${first.getName()} is dead and can't fight.`);
+        console.log(`${second.getName()} is dead and can't fight.`);
     }
     while (first.getHealth() && second.getHealth()) {
         first.attack(second);
