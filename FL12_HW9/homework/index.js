@@ -77,7 +77,11 @@ const actors = [
     { name: 'tommy', age: 36 },
     { name: 'lee', age: 28 }
 ];
+<<<<<<< HEAD
 getArrayOfKeys(actors,'name');
+=======
+ getArrayOfKeys(actors,'name');
+>>>>>>> 81c06321f53fbc55a0293302d72d00604528b204
 
 function substitute(array){
     let arr2 = [];
