@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1621c5d-dae1-4b39-aa55-1a7897c088f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FL12_HW7/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FL12_HW7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FL12_HW7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FL12_HW7/homework/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FL12_HW7/homework/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FL12_HW7/homework/src/js/task1.js" beforeDir="false" afterPath="$PROJECT_DIR$/FL12_HW7/homework/src/js/task1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FL12_HW7/homework/src/js/task2.js" beforeDir="false" afterPath="$PROJECT_DIR$/FL12_HW7/homework/src/js/task2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +29,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
@@ -93,6 +91,7 @@
       <workItem from="1577383931511" duration="532000" />
       <workItem from="1577451898516" duration="665000" />
       <workItem from="1577728195657" duration="167000" />
+      <workItem from="1578770196474" duration="286000" />
     </task>
     <servers />
   </component>

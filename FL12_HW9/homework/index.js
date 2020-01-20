@@ -14,7 +14,6 @@ function convert() {
 }
 convert('1', 2, 3, '4');
 
-
 function executeforEach(array, callback) {
     for(let i = 0; i < array.length; i++){
         callback(array[i]);
@@ -23,7 +22,6 @@ function executeforEach(array, callback) {
 executeforEach([1,2,3],function(el){
     console.log(el * 2);
 });
-
 
 function mapArray(array, callback){
     let arr2 = [];
@@ -35,7 +33,6 @@ function mapArray(array, callback){
 mapArray([2, '5', 8], function(el){
     return el + 3;
 });
-
 
 function filterArray(array, callback){
     let result = [];
@@ -49,7 +46,6 @@ function filterArray(array, callback){
 filterArray([2, 5, 8], function(el){
     return el;
 });
-
 
 function flipOver(str) {
     let result_string = '';
@@ -70,10 +66,8 @@ function makeListFromRange([first, last]) {
 }
 makeListFromRange([2, 7]);
 
-
-
 function getArrayOfKeys(array, kEy){
-let result_arr=[];
+    let result_arr=[];
     executeforEach(array,function (el) {
         result_arr.push(el[kEy]);
     });
@@ -83,8 +77,7 @@ const actors = [
     { name: 'tommy', age: 36 },
     { name: 'lee', age: 28 }
 ];
- getArrayOfKeys(actors,'name');
-
+getArrayOfKeys(actors,'name');
 
 function substitute(array){
     let arr2 = [];
@@ -112,15 +105,15 @@ function formatDate(date) {
     let Hour = date.getHours();
     let Minutes = date.getMinutes();
     if(Hour < 10){
-       Hour= `0${date.getHours()}`;
+        Hour= `0${date.getHours()}`;
     } else {
         Hour = date.getHours();
-      }
+    }
     if(Minutes < 10){
-       Minutes = `0${date.getMinutes()}`;
+        Minutes = `0${date.getMinutes()}`;
     } else {
         Minutes = date.getMinutes();
-      }
+    }
     return `${Year}/${Month}/${Day} ${Hour}:${Minutes}`;
 }
 formatDate(new Date('6/15/2018 09:15:00'));
