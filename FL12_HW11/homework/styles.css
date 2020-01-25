@@ -1,0 +1,45 @@
+/* Todo: your styles go here*/
+* {
+    padding: 0;
+    margin: 0;
+}
+icon {
+    color: goldenrod;
+}
+
+title {
+    display: block;
+}
+
+p {
+    font-style: italic;
+}
+
+div {
+    cursor: pointer;
+}
+
+div ul ul {
+    display: none;
+}
+div ul p {
+    display: none;
+}
+
+.oFolder + ul {
+    display: block;
+}
+
+.oFolder + p {
+    display: block;
+}
+
+.element_item {
+    display: flex;
+    align-items: flex-end;
+}
+
+ul {
+    margin-top: 10px;
+    margin-left: 10px;
+}
