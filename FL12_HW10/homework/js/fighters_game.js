@@ -62,4 +62,8 @@ function battle(first, second) {
 }
 
 const fighter1 = new Fighter({name: 'Maximus', damage: 25, hp: 90, strength: 30, agility: 10});
+<<<<<<< HEAD
 const fighter2 = new Fighter({name: 'Commodus', damage: 20, hp: 100, strength: 20, agility: 30});
+=======
+const fighter2 = new Fighter({name: 'Commodus', damage: 20, hp: 100, strength: 20, agility: 30});
+>>>>>>> b0c4fccdb7e69e07f6e5e24da2e59543cd0a5d81
